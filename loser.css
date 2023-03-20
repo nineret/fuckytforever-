@@ -18,6 +18,13 @@ html {
     
 }
 
+#secondary.ytd-two-column-search-results-renderer {
+  padding-left: 40px;
+  width: 385px;
+  flex: none;
+  display: none;
+}
+
 ytd-live-chat-frame[rounded-container] {
   border-radius: 0px;
 }
