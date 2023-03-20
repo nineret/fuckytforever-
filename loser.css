@@ -29,6 +29,14 @@ ytd-notification-renderer {
 
 }
 
+#author-photo.yt-live-chat-text-message-renderer {
+  display: block;
+  margin-right: 8px;
+  overflow: hidden;
+  border-radius: 0%;
+  flex: none;
+}
+
 #secondary.ytd-two-column-search-results-renderer {
   padding-left: 40px;
   width: 385px;
