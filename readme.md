@@ -15,4 +15,4 @@ https://greasyfork.org/en/scripts/976-youtube-right-side-description
 https://greasyfork.org/en/scripts/33218-new-youtube-obnoxious-bar-fix     
 
 SCREENSHOT     
-<img src="https://github.com/nineret/fuckytforever-/Screenshot 2023-03-20 15:43:43.png">
+<img src="https://github.com/nineret/fuckytforever-/Screenshot 2023-03-20 15:43:43.png](https://github.com/nineret/fuckytforever-/blob/main/Screenshot%202023-03-20%2015:43:43.png">
