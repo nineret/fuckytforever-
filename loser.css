@@ -18,6 +18,10 @@ html {
     
 }
 
+ytd-item-section-renderer:nth-of-type(1) {
+  border-bottom: 0px solid #e5e5e5 !important;
+}
+
 ytd-comment-replies-renderer #creator-thumbnail.ytd-comment-replies-renderer yt-img-shadow.ytd-comment-replies-renderer {
   border-radius: 0%;
   background-color: transparent;
