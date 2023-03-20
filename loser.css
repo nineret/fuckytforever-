@@ -18,6 +18,14 @@ html {
     
 }
 
+ytd-comment-replies-renderer #creator-thumbnail.ytd-comment-replies-renderer yt-img-shadow.ytd-comment-replies-renderer {
+  border-radius: 0%;
+  background-color: transparent;
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+}
+
 ytd-search #sub-menu {
   border-bottom: 0px solid #f1f1f1;
   padding-bottom: 2px;
@@ -281,6 +289,16 @@ ytd-compact-autoplay-renderer {
 
 #secondary-inner.ytd-watch-flexy {
   width: 310px !important;
+}
+
+yt-img-shadow.ytd-topbar-menu-button-renderer {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  margin: 0 8px;
+  border-radius: 0%;
+  background-color: transparent;
+  overflow: hidden;
 }
 
 #video-title.ytd-compact-video-renderer {
