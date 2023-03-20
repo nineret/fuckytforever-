@@ -18,6 +18,11 @@ html {
     
 }
 
+#sections.ytd-guide-renderer {
+  position: relative;
+  display: none;
+}
+
 
 .ytd-two-column-search-results-renderer ytd-video-renderer[use-prominent-thumbs] ytd-thumbnail, .ytd-two-column-search-results-renderer ytd-radio-renderer.ytd-item-section-renderer ytd-thumbnail, ytd-playlist-renderer[use-prominent-thumbs] ytd-playlist-thumbnail.ytd-playlist-renderer, [page-subtype="history"] ytd-video-renderer:not([use-prominent-thumbs]) ytd-thumbnail.ytd-video-renderer {
   height: 72px;
