@@ -79,6 +79,19 @@ ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-rend
   max-width: 52px !important;
 }
 
+ytd-video-secondary-info-renderer {
+  max-height: 999999px;
+  overflow: auto;
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0 !important;
+  background-color: var(--yt-playlist-background-item);
+  padding: 8px;
+  border-bottom-width: 0px;
+  --yt-endpoint-text-decoration: underline;
+}
+
 ytd-compact-playlist-renderer:not([watch-feed-big-thumbs]) ytd-playlist-thumbnail.ytd-compact-playlist-renderer {
  background:#fff;
     border:2.8px solid #d3d3d3;
