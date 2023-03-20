@@ -18,6 +18,34 @@ html {
     
 }
 
+.autoplay-hovercard {
+    display: none;
+}
+
+html:not([dark]) #upnext.ytd-compact-autoplay-renderer {
+  color: #222;
+  display: none;
+}
+
+#autoplay.ytd-compact-autoplay-renderer {
+  font-size: 13px !important;
+  text-transform: none !important;
+  position: relative;
+  top: 1px;
+  font-weight: 500;
+  color: #767676;
+  display: none;
+}
+
+.toggle-container.tp-yt-paper-toggle-button {
+  display: inline-block;
+  position: relative;
+  width: 36px;
+  height: 14px;
+  margin: 4px 1px;
+    margin-top: 4px;
+  display: none;
+}
 
 ytd-item-section-renderer:nth-of-type(1) {
   border-bottom: 0px solid #e5e5e5 !important;
@@ -48,7 +76,7 @@ ytd-compact-autoplay-renderer {
 
 ytd-compact-autoplay-renderer {
   margin-bottom: 0 !important;
-  padding-bottom: 7px !important;
+  padding-bottom: 0px !important;
   width: 310px;
   display: block;
   border-bottom: 0px;
