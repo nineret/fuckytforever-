@@ -22,6 +22,24 @@ html {
   border-radius: 0px;
 }
 
+#video-title.ytd-playlist-video-renderer {
+  -webkit-line-clamp: 2;
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Arial";
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: 500;
+  overflow: hidden;
+  display: block;
+  max-height: 4.4rem;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  display: -webkit-box;
+}
+
 ytd-playlist-sidebar-secondary-info-renderer {
   padding: 0 !important;
   position: initial;
