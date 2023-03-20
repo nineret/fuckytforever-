@@ -18,6 +18,10 @@ html {
     
 }
 
+ytd-live-chat-frame[rounded-container] {
+  border-radius: 0px;
+}
+
 yt-formatted-string > .emoji.small-emoji {
   width: var(--yt-formatted-string-small-emoji-size,16px);
   height: var(--yt-formatted-string-small-emoji-size,16px);
