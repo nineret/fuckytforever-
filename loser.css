@@ -18,6 +18,7 @@ html {
     
 }
 
+
 .autoplay-hovercard {
     display: none;
 }
@@ -211,6 +212,10 @@ ytd-rich-grid-row.style-scope.ytd-rich-grid-renderer > div > ytd-rich-item-rende
   max-width: 54px !important;
 }
 
+ytd-rich-grid-row.style-scope.ytd-rich-grid-renderer > div > ytd-rich-item-renderer #dismissible:hover {
+  background: #d1e1fa;
+}
+
 ytd-info-row-renderer {
   color: var(--yt-spec-text-primary);
   display: block;
@@ -329,6 +334,12 @@ tp-yt-app-drawer.ytd-app:not([persistent]).ytd-app {
   min-width: 96px !important;
   max-width: 54px !important;
 }
+
+#contents ytd-video-renderer:not([use-prominent-thumbs]) ytd-thumbnail.ytd-video-renderer, ytd-video-renderer[use-prominent-thumbs] ytd-thumbnail.ytd-video-renderer, ytd-video-renderer[is-search] ytd-thumbnail.ytd-video-renderer, ytd-video-renderer[use-prominent-thumbs] #channel-info.ytd-video-renderer, ytd-playlist-renderer[use-prominent-thumbs] ytd-playlist-thumbnail.ytd-playlist-renderer, ytd-radio-renderer[use-prominent-thumbs] ytd-thumbnail.ytd-radio-renderer, ytd-playlist-renderer[is-search] ytd-playlist-thumbnail.ytd-playlist-renderer, ytd-thumbnail.ytd-radio-renderer, #avatar-section.ytd-channel-renderer #dismissible:hover {
+  background: #d1e1fa;
+}
+
+
 
 ytd-mini-guide-renderer {
   display: none;
