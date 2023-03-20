@@ -18,6 +18,16 @@ html {
     
 }
 
+yt-formatted-string > .emoji.small-emoji {
+  width: var(--yt-formatted-string-small-emoji-size,16px);
+  height: var(--yt-formatted-string-small-emoji-size,16px);
+  display: none;
+}
+
+a {
+     color: #167ac6 !important;
+}
+
 .sbsb_a {
   border-radius: 0px;
 }
@@ -68,6 +78,14 @@ ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-rend
 
 #donation-shelf {
     display: none;
+}
+
+.meta-item.ytd-c4-tabbed-header-renderer {
+  color: var(--yt-lightsource-secondary-title-color);
+  font-family: "Arial";
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
 }
 
 .ytd-two-column-search-results-renderer ytd-video-renderer[use-prominent-thumbs] ytd-thumbnail, .ytd-two-column-search-results-renderer ytd-radio-renderer.ytd-item-section-renderer ytd-thumbnail, ytd-playlist-renderer[use-prominent-thumbs] ytd-playlist-thumbnail.ytd-playlist-renderer, [page-subtype="history"] ytd-video-renderer:not([use-prominent-thumbs]) ytd-thumbnail.ytd-video-renderer {
