@@ -33,7 +33,11 @@ ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-rend
   display: none;
 }
 
-.style-scope ytd-button-renderer {
+#autoplay {
+    display: none;
+}
+
+#donation-shelf {
     display: none;
 }
 
