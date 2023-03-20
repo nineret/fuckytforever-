@@ -13,3 +13,6 @@ REQUIREMENT
 https://7kt.se/download/ (please dont use smaller thumbnail)     
 https://greasyfork.org/en/scripts/976-youtube-right-side-description     
 https://greasyfork.org/en/scripts/33218-new-youtube-obnoxious-bar-fix     
+
+SCREENSHOT     
+<img src="https://github.com/nineret/fuckytforever-/Screenshot 2023-03-20 15:43:43.png">
