@@ -18,6 +18,16 @@ html {
     
 }
 
+.sbsb_a {
+  border-radius: 0px;
+}
+
+ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-renderer {
+  overflow: hidden;
+  border-radius: 0px;
+  isolation: isolate;
+}
+
 #sections.ytd-guide-renderer {
   position: relative;
   display: none;
