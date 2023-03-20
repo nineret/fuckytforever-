@@ -19,6 +19,15 @@ html {
 }
 
 
+.ytd-two-column-search-results-renderer ytd-video-renderer[use-prominent-thumbs] ytd-thumbnail, .ytd-two-column-search-results-renderer ytd-radio-renderer.ytd-item-section-renderer ytd-thumbnail, ytd-playlist-renderer[use-prominent-thumbs] ytd-playlist-thumbnail.ytd-playlist-renderer, [page-subtype="history"] ytd-video-renderer:not([use-prominent-thumbs]) ytd-thumbnail.ytd-video-renderer {
+  height: 72px;
+  width: 128px;
+  padding: 4px;
+  border: 1px solid #d3d3d3;
+  min-width: 52px !important;
+  max-width: 52px !important;
+}
+
 .autoplay-hovercard {
     display: none;
 }
@@ -297,7 +306,7 @@ ytd-grid-video-renderer {
   width: 196px !important;
   margin-right: 10px !important;
       background:#fff;
-    border:2.5px solid #d3d3d3;
+    border:2.8px solid #d3d3d3;
     padding:4px;
     border-radius:2px
           padding: 4 !important;
@@ -327,7 +336,7 @@ tp-yt-app-drawer.ytd-app:not([persistent]).ytd-app {
     max-width:96px;
     max-height:54px;
     background:#fff;
-    border:2.5px solid #d3d3d3;
+    border:2.8px solid #d3d3d3;
     padding:4px;
     border-radius:2px
           padding: 4 !important;
