@@ -18,6 +18,17 @@ html {
     
 }
 
+
+ytd-notification-renderer {
+
+    position: relative;
+    padding: 2px 2px 2px 0;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+
+}
+
 #secondary.ytd-two-column-search-results-renderer {
   padding-left: 40px;
   width: 385px;
