@@ -178,7 +178,7 @@ ytd-search #sub-menu {
 
 #video-title.ytd-rich-grid-media {
   color: var(--yt-spec-text-primary);
-  font-family: none;
+  font-family: arial;
   font-size: 1.4rem;
   line-height: 2.2rem;
   font-weight: 500;
@@ -275,7 +275,7 @@ ytd-info-row-renderer {
 #title.ytd-info-row-renderer {
   color: var(--yt-spec-text-secondary);
   margin-right: 28px;
-  font-family: none;
+  font-family: arial;
   font-size: 1.2rem;
   line-height: 1.8rem;
   font-weight: 0;
@@ -414,7 +414,7 @@ yt-img-shadow.ytd-topbar-menu-button-renderer {
   margin: 0 0 4px 0;
     margin-top: 0px;
     margin-bottom: 4px;
-  font-family: none;
+  font-family: arial;
   font-size: 1.4rem;
   line-height: 2rem;
   font-weight: 500;
@@ -431,7 +431,7 @@ yt-img-shadow.ytd-topbar-menu-button-renderer {
 
 #content-text.ytd-comment-renderer {
   color: var(--yt-spec-text-primary);
-  font-family: none;
+  font-family: arial;
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 400;
@@ -442,7 +442,7 @@ yt-img-shadow.ytd-topbar-menu-button-renderer {
 .published-time-text.ytd-comment-renderer {
   color: var(--yt-spec-text-secondary);
   white-space: nowrap;
-  font-family: none;
+  font-family: arial;
   font-size: 1.2rem;
   line-height: 1.8rem;
   font-weight: 400;
@@ -453,14 +453,14 @@ ytd-comment-action-buttons-renderer:not([use-comment-icon]) #reply-button.ytd-co
   --yt-button-padding: 8px 16px;
   color: var(--yt-spec-text-secondary);
   text-transform: uppercase;
-  font-family: none;
+  font-family: arial;
   font-size: 1.2rem;
   line-height: 1.8rem;
   font-weight: 500;
 }
 
 ytd-expander.ytd-video-secondary-info-renderer {
-  font-family: none;
+  font-family: arial;
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 400;
@@ -468,18 +468,18 @@ ytd-expander.ytd-video-secondary-info-renderer {
 
 info-renderer {
   color: var(--yt-spec-text-secondary);
-  font-family: none;
+  font-family: arial;
   font-size: 1.2rem;
   line-height: 2rem;
   font-weight: 400;
 }
 
 rsdRetro body, .rsdRetro input, .rsdRetro textarea, .rsdRetro select {
-  font-family: none;
+  font-family: arial;
 }
 
 .title.ytd-video-primary-info-renderer {
-  font-family: none;
+  font-family: arial;
   font-size: 1.2rem;
   line-height: 2.6rem;
   font-weight: 400;
