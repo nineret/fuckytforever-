@@ -24,6 +24,12 @@ yt-formatted-string > .emoji.small-emoji {
   display: none;
 }
 
+yt-formatted-string > .emoji {
+  width: var(--yt-formatted-string-emoji-size,24px);
+  height: var(--yt-formatted-string-emoji-size,24px);
+    display: none;
+}
+
 a {
      color: #167ac6 !important;
 }
