@@ -22,6 +22,17 @@ html {
   border-radius: 0px;
 }
 
+ytd-playlist-sidebar-secondary-info-renderer {
+  padding: 0 !important;
+  position: initial;
+  top: 50px;
+  background: #fff;
+  width: calc(100% - 232px);
+  left: 231px;
+  border-bottom: 1px solid #e8e8e8;
+  z-index: 1024;
+}
+
 ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-renderer {
   overflow: hidden;
   border-radius: 0px;
@@ -48,6 +59,31 @@ ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-rend
   border: 1px solid #d3d3d3;
   min-width: 52px !important;
   max-width: 52px !important;
+}
+
+ytd-compact-playlist-renderer:not([watch-feed-big-thumbs]) ytd-playlist-thumbnail.ytd-compact-playlist-renderer {
+ background:#fff;
+    border:2.8px solid #d3d3d3;
+    padding:4px;
+    border-radius:2px
+          padding: 4 !important;
+  height: 52px !important;
+  width: 96px !important;
+}
+
+html:not([dark]) #secondary #video-title, html:not([dark]) #video-title.ytd-playlist-video-renderer {
+  color: #167ac6 !important;
+}
+
+html:not([dark]) #secondary #video-title, html:not([dark]) #video-title.ytd-playlist-video-renderer {
+    color: #167ac6 !important;
+}
+
+
+
+ytd-playlist-video-renderer[amsterdam-post-mvp] ytd-thumbnail.ytd-playlist-video-renderer {
+  height: 54px;
+  width: 96px;
 }
 
 .autoplay-hovercard {
