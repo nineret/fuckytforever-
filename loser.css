@@ -4,7 +4,7 @@
 "requirement right side description + 7kt"
 
 html {
-  font-family: none;
+  font-family: arial;
 }
 
 #masthead-container.ytd-app {
@@ -33,6 +33,9 @@ ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-rend
   display: none;
 }
 
+.style-scope ytd-button-renderer {
+    display: none;
+}
 
 .ytd-two-column-search-results-renderer ytd-video-renderer[use-prominent-thumbs] ytd-thumbnail, .ytd-two-column-search-results-renderer ytd-radio-renderer.ytd-item-section-renderer ytd-thumbnail, ytd-playlist-renderer[use-prominent-thumbs] ytd-playlist-thumbnail.ytd-playlist-renderer, [page-subtype="history"] ytd-video-renderer:not([use-prominent-thumbs]) ytd-thumbnail.ytd-video-renderer {
   height: 72px;
@@ -59,7 +62,7 @@ html:not([dark]) #upnext.ytd-compact-autoplay-renderer {
   top: 1px;
   font-weight: 500;
   color: #767676;
-  display: none;
+  
 }
 
 .toggle-container.tp-yt-paper-toggle-button {
