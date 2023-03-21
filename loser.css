@@ -93,7 +93,7 @@ ytd-playlist-sidebar-secondary-info-renderer {
   background: #fff;
   width: calc(100% - 232px);
   left: 231px;
-  border-bottom: 1px solid #e8e8e8;
+  8
   z-index: 1024;
 }
 
@@ -101,6 +101,15 @@ ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-rend
   overflow: hidden;
   border-radius: 0px;
   isolation: isolate;
+}
+
+#header.ytd-expandable-metadata-renderer {
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
 }
 
 #sections.ytd-guide-renderer {
