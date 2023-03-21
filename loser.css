@@ -93,7 +93,7 @@ ytd-playlist-sidebar-secondary-info-renderer {
   background: #fff;
   width: calc(100% - 232px);
   left: 231px;
-  8
+
   z-index: 1024;
 }
 
@@ -101,6 +101,12 @@ ytd-channel-video-player-renderer[rounded] #player.ytd-channel-video-player-rend
   overflow: hidden;
   border-radius: 0px;
   isolation: isolate;
+}
+
+ytd-expander.ytd-video-secondary-info-renderer:not([collapsed]) #content {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
 }
 
 #header.ytd-expandable-metadata-renderer {
@@ -509,7 +515,7 @@ ytd-mini-guide-renderer {
 }
 
 ytd-video-renderer[use-search-ui] .text-wrapper.ytd-video-renderer {
-  max-width: 310px;
+  max-width: 1080px;
 }
 
 element {
